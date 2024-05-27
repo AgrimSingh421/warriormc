@@ -1,0 +1,49 @@
+/* |> Admin Panel CSS <| */
+.posts {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.totalPosts {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 250px !important;
+  text-align: center;
+}
+
+.totalPosts h2 {
+  font-size: 80px;
+}
+
+.totalPosts p {
+  font-size: 25px;
+}
+
+.yourPosts {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 250px !important;
+  text-align: center;
+}
+
+.yourPosts h2 {
+  font-size: 80px;
+}
+
+.yourPosts p {
+  font-size: 25px;
+}
+
+.adminPanel h2,
+.unbanAppealPortal h2,
+.staffApplications h2 {
+  font-size: 40px;
+}
+
+.appeals,
+.applications {
+  width: 80vw;
+  height: 68vh;
+  overflow-y: scroll;
+  padding: 0 50px;
+}
