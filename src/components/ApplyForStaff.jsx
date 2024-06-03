@@ -4,6 +4,7 @@ import { auth, db, serverTimestamp } from "../firebase";
 
 const ApplyForStaff = ({ user }) => {
   const [username, setUsername] = useState(user.displayName);
+  const [discord, setDiscord] = useState("");
   const [description, setDescription] = useState("");
   const [whetherStaff, setWhetherStaff] = useState("");
   const [eligible, setEligible] = useState("");
@@ -14,6 +15,7 @@ const ApplyForStaff = ({ user }) => {
   const submit = async () => {
     if (
       !username ||
+      !discord ||
       !description ||
       !whetherStaff ||
       !eligible ||
@@ -29,6 +31,7 @@ const ApplyForStaff = ({ user }) => {
         await db.collection("staffapplications").add({
           uid: user.uid,
           username,
+          discord,
           description,
           whetherStaff,
           eligible,
@@ -61,6 +64,17 @@ const ApplyForStaff = ({ user }) => {
             onChange={(e) => setUsername(e.target.value)}
             placeholder="Enter Your Full Name"
             disabled
+          />
+        </div>
+        <div className="applyForStaff_discord">
+          <label htmlFor="discord">Discord Username (Ex.: John#1234): &nbsp;</label>
+          <input
+            type="text"
+            name="discord"
+            id="discord"
+            value={discord}
+            onChange={(e) => setDiscord(e.target.value)}
+            placeholder="Enter Your Discord Username (Ex.: John#1234)"
           />
         </div>
         <div className="applyForStaff_description">
