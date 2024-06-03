@@ -41,6 +41,7 @@
 .unban_guilty,
 .unban_say,
 .applyForStaff_name,
+.applyForStaff_discord,
 .applyForStaff_description,
 .applyForStaff_whetherStaff,
 .applyForStaff_eligible,
@@ -65,6 +66,7 @@
 .unban_bannedBefore input,
 .unban_guilty input,
 .applyForStaff_name input,
+.applyForStaff_discord input,
 .applyForStaff_whetherStaff input,
 .reportAPlayer_name input {
   width: 100%;
