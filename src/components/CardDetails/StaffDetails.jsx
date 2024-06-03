@@ -20,7 +20,7 @@ const StaffDetails = () => {
     "Please join our Discord server to get your Trainee rank. If you have already joined our server, please check your DM, we would have probably messaged you.";
 
   const rejectHeading =
-    "We're sorry to inform you but your staff application has been rejected.";
+    "We're sorry, but your staff application has been rejected.";
   const rejectMessage =
     "You can try again next time when the staff applications open.";
 
@@ -86,6 +86,15 @@ const StaffDetails = () => {
       <br />
       <span>
         <b>A:</b> {staffData.username}
+      </span>
+      <br />
+      <br />
+      <span>
+        <b>Q: Discord Username:</b>
+      </span>
+       <br />
+      <span>
+        <b>A: </b> {staffData.discord}
       </span>
       <br />
       <br />
