@@ -127,8 +127,7 @@ const StaffDetails = () => {
       <br />
       <span>
         <b>
-          Q: If you got a report of a player that he has scammed a person, what
-          will you do?
+          Q: What would you do if you got a report of a player that someone has scammed them?
         </b>
       </span>
       <br />
@@ -139,16 +138,14 @@ const StaffDetails = () => {
       <span>
         <b>Expected Answer: </b>{" "}
         <i>
-          I will first check that if the person has really scammed that person
-          or not. If they have really scammed I'll ban them for about 30 days,
-          if this would be a false report then I'll ban the player who has
-          reported for about 1 week.
+          I will first check whether the person has really scammed that person. If they have been scammed I'll ban them for about 30 days,
+          if this is a false report, I'll ban the player who has reported for about 1 week.
         </i>
       </span>
       <br />
       <br />
       <span>
-        <b>Q: What will you do if you saw a player trying to scam a player?</b>
+        <b>Q: What would you do if you saw a player trying to scam a player?</b>
       </span>
       <br />
       <span>
@@ -158,9 +155,7 @@ const StaffDetails = () => {
       <span>
         <b>Expected Answer: </b>{" "}
         <i>
-          I will first observe if he is really trying to scam someone. If yes, I
-          will first warn the player that if they will scam they will be banned.
-          If I again saw that player scamming I will ban them for about 10-15
+          I will first observe if he is trying to scam someone. If yes, I will first warn the player that he will be banned if he scams. If I see that player scamming again, I will ban them for about 10-15 days.
           days.
         </i>
       </span>
@@ -177,15 +172,7 @@ const StaffDetails = () => {
       <span>
         <b>Expected Answer: </b>{" "}
         <i>
-          Auction House is a place in skyblock where people can put any item in
-          auction and other people can buy that. The item in the auction has a
-          specific time and after that the item expires and no one can buy it.
-          To prevent the item from being expired there is a BIN type that means
-          "Buy It Now". In BIN there is no time, the item can be put in auction
-          for several months without expiring. Also in normal auction you have
-          to bid to the item, and after that specific time, the highest bidder
-          will get the item. But in BIN you can directly purchase the item
-          without any time period.
+          An Auction House is a place in Skyblock where people can put any item in an auction and other people can buy that. The item in the auction has a specific time; after that, the item expires, and no one can buy it. To prevent the item from expiring, there is a BIN type that means "Buy It Now". In BIN there is no time, the item can be put in auction for several months without expiring. Also, in a normal auction, you have to bid for the item; after that specific time, the highest bidder will get the item. But in BIN you can directly purchase the item without any time.
         </i>
       </span>
       <br />
