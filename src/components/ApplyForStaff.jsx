@@ -3,7 +3,7 @@ import "./components.css";
 import { auth, db, serverTimestamp } from "../firebase";
 
 const ApplyForStaff = ({ user }) => {
-  const [username, setUsername] = useState(user.displayName);
+  const [username, setUsername] = useState("");
   const [discord, setDiscord] = useState("");
   const [description, setDescription] = useState("");
   const [whetherStaff, setWhetherStaff] = useState("");
