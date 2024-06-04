@@ -63,7 +63,6 @@ const ApplyForStaff = ({ user }) => {
             value={username}
             onChange={(e) => setUsername(e.target.value)}
             placeholder="Enter Your Full Name"
-            disabled
           />
         </div>
         <div className="applyForStaff_discord">
